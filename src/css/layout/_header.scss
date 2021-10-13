@@ -1,0 +1,91 @@
+header {
+
+  .h1_work {
+    color: $tertiary-04;
+  }
+
+  .shop-nav {
+    font-size: 2em;
+    text-align: end;
+    i {
+      margin-right: 30px;
+      margin-top: 30px;
+    }
+  }
+
+  nav {
+    font-family: 'futura_2rbold';
+    font-size: 1.6em;
+
+    div {
+
+      @media(min-width:768px) {
+        max-width: min-content;
+        position: fixed;
+      }
+    }
+
+    .link-work {
+      box-shadow: 0 0 10px 0 $nonary;
+      @media(max-width:768px) {
+        box-shadow: 0 0 10px 0 $tertiary-04;
+        text-align: center;
+      }
+      border-radius: 10px;
+      padding: 5px;
+      left: 0;
+      top: 400px;
+      span {
+        color:$tertiary-04;
+      }
+    }
+
+    .link-tech-work {
+      box-shadow: 0 0 10px 0 $nonary;
+      @media(max-width:768px) {
+        box-shadow: 0 0 10px 0 $tertiary-01;
+        text-align: center;
+      }
+      border-radius: 10px;
+      padding: 5px;
+      left: 0;
+      top: 400px;
+      span {
+        color:$tertiary-01;
+      }
+    }
+
+    .link-tech {
+      box-shadow: 0 0 10px 0 $nonary;
+      @media(max-width:768px) {
+        box-shadow: 0 0 10px 0 $tertiary-01;
+        text-align: center;
+      }
+      border-radius: 10px;
+      padding: 5px;
+      right: 0;
+      top: 400px;
+      margin-left: 5px;
+      span {
+        color:$tertiary-01;
+      }
+    }
+
+    .link-shop {
+      box-shadow: 0 0 10px 0 $nonary;
+      @media(max-width:768px) {
+        box-shadow: 0 0 10px 0 $tertiary-05;
+        text-align: center;
+      }
+      border-radius: 10px;
+      padding: 5px;
+      right: 0;
+      top: 400px;
+      margin-left: 5px;
+      span {
+        color:$tertiary-05;
+      }
+    }
+  }
+}
+

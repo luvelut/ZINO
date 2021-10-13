@@ -1,0 +1,135 @@
+
+.articles {
+  &__article {
+    @media(max-width:768px) {
+      display: block;
+    }
+    display: flex;
+    margin-bottom: 100px;
+    &__contenu {
+      border-radius: 10px;
+
+      img {
+        border-radius: 10px;
+      }
+
+      .label_categorie {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+      }
+
+      .categorie {
+        font-family: 'FuturaStdBold';
+        color : $primary;
+        padding: 5px 10px;
+        font-size: 1.2em;
+        border-radius: 8px;
+      }
+
+      .details {
+        display: none;
+      }
+    }
+
+    &__contenu {
+      @media(max-width:1200px) {
+        text-align: center;
+      }
+    }
+
+    &__contenu:hover{
+      .details {
+        display: block;
+        position: absolute;
+        width: 390px;
+        text-align: center;
+
+        &__text {
+          text-align: justify;
+          padding-left: 8px;
+          @media(max-width:768px) {
+            font-size: 0.7em;
+          }
+        }
+
+        &__title {
+          font-family: 'FuturaStdBold';
+          font-size: 1.2em;
+        }
+
+        &__add {
+          box-shadow: 0 0 20px 0 lightgrey;
+          border-radius: 10px;
+          padding: 10px;
+          margin-left: 20px;
+
+        }
+
+        span {
+          font-family: 'FuturaStdBold';
+        }
+      }
+    }
+
+    &__contenu:hover~&__label {
+      display: none;
+    }
+
+    &__contenu:hover {
+      .categorie {
+        display: none;
+      }
+      img {
+        opacity: 0.1;
+      }
+    }
+
+    &__label {
+      @media(min-width:1200px) {
+        writing-mode: vertical-rl;
+        text-orientation: sideways;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1.4em;
+        border: black solid 0.5px;
+        margin: 60px 0;
+        border-radius: 0 10px 10px 0;
+        border-left: none;
+      }
+      font-size: 1.4em;
+      border-radius: 0 0 10px 10px;
+      border: black solid 0.5px;
+      border-top: none;
+      text-align: center;
+
+    }
+  }
+}
+
+nav {
+  font-family: 'FuturaStdBold';
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+
+  .pagination {
+    box-shadow: 0 0 20px 0 lightgray;
+    border-radius: 10px;
+    padding: 25px;
+    list-style: none;
+    margin: 0;
+    display: flex;
+  }
+
+  .pagination li {
+    margin: 0 1px;
+
+    a {
+      color: $secondary;
+      text-decoration: none;
+      font-size: 2em;
+      margin: 0 20px;
+    }
+  }
+}

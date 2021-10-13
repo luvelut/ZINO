@@ -1,0 +1,72 @@
+//CODE COULEUR CATEGORIES
+
+.kit {
+  box-shadow: 0 0 10px 0 $tertiary-02;
+  .categorie {
+    background-color: $tertiary-02;
+  }
+}
+
+.bank {
+  box-shadow: 0 0 10px 0 $tertiary-03;
+  .categorie {
+    background-color: $tertiary-03;
+  }
+}
+
+.toy_zine {
+  box-shadow: 0 0 10px 0 $tertiary-01;
+  .categorie {
+    background-color: $tertiary-01;
+  }
+}
+
+.pin {
+  box-shadow: 0 0 10px 0 $tertiary-05;
+  .categorie {
+    background-color: $tertiary-05;
+  }
+}
+
+.craft_print {
+  box-shadow: 0 0 10px 0 $tertiary-04;
+  .categorie {
+    background-color: $tertiary-04;
+  }
+}
+
+.toy_filter {
+  p {
+    color: $tertiary-01;
+  }
+}
+
+.kit_filter {
+  p {
+    color: $tertiary-02;
+  }
+}
+
+.bank_filter {
+  p {
+    color: $tertiary-03;
+  }
+}
+
+.craft_filter {
+  p {
+    color: $tertiary-04;
+  }
+}
+
+.pin_filter {
+  p {
+    color: $tertiary-05;
+  }
+}
+
+.graphic_filter {
+  p {
+    color: $tertiary-06;
+  }
+}

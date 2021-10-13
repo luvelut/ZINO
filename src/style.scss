@@ -1,0 +1,17 @@
+@import "css/_variables.scss";
+@import "css/fonts.scss";
+
+@import "css/layout/_header.scss";
+@import "css/layout/_footer.scss";
+
+@import "css/components/categories.scss";
+@import "css/components/pagination.scss";
+@import "css/components/projects.scss";
+@import "css/components/articles.scss";
+@import "css/components/filtres.scss";
+
+@import "css/pages/shop.scss";
+@import "css/pages/work.scss";
+@import "css/pages/home.scss";
+
+@import "~bootstrap/dist/css/bootstrap-grid.min.css";

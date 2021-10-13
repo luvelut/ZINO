@@ -1,0 +1,53 @@
+body {
+    font-family: 'FuturaStdLight';
+    margin: 0px;
+}
+
+.contenu {
+    margin-left: 140px;
+    margin-right: 140px;
+
+    @media (max-width: 640px) {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+h1 {
+    font-family: 'futura_2rbold';
+    text-align: center;
+    font-size: 90px;
+    color: $secondary;
+    @media(max-width:768px) {
+        font-size: 65px;
+      }
+}
+
+h2 {
+    font-family: 'FuturaStdBold';
+    font-size: 30px;
+    @media(max-width:768px) {
+        font-size: 20px;
+      }
+}
+
+p {
+    font-family: 'FuturaStdLight';
+    font-size: 18px;
+    color: $secondary;
+    @media(max-width:768px) {
+        font-size: 14px;
+      }
+}
+
+a {
+    text-decoration: none;
+}
+
+.img {
+    text-align: center;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,103 @@
+.slidecontainer {
+  text-align: center;
+}
+
+.slider {
+  -webkit-appearance: none;
+  height: 5px;
+  border-radius: 5px;
+  background: black;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: white;
+  border : solid black;
+  cursor: pointer;
+}
+
+.filtres {
+  margin : 6% 10%;
+  box-shadow: 0 0 0.3em $nonary;
+  border-radius: 10px;
+  @media (max-width: 680px) {
+    .container {
+      height: 490px;
+    }
+  }
+}
+
+.tri {
+  .icones {
+    text-align: center;
+  }
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+
+.search {
+  border-bottom: 1px solid;
+  margin: 0;
+  width: 80%;
+  margin-left: 40px;
+}
+
+.selecteurs {
+  border-left: 1px solid $secondary;
+    height: 80%;
+
+    @media (max-width: 	1200px) {
+        border-left: 0 solid $secondary;
+        height: 0;
+    }
+}
+
+.icones {
+  i {
+    box-shadow: 0 0 0.3em $nonary;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}
+
+
+.tertiary {
+    p {
+        color: $tertiary-01;
+    }
+}
+
+.quaternary {
+    p {
+        color: $tertiary-02;
+    }
+}
+
+.quinary {
+    p {
+        color: $tertiary-03;
+    }
+}
+
+.senary {
+    p {
+        color: $tertiary-04;
+    }
+}
+
+.septenary {
+    p {
+        color: $tertiary-05;
+    }
+}
+
+.octonary {
+    p {
+        color: $tertiary-06;
+    }
+}

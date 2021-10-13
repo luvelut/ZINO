@@ -1,0 +1,77 @@
+.projet {
+    margin-bottom: 10%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+
+// couleurs des différentes box selon la catégorie
+
+.quinarybox {
+    box-shadow: 0 0 0.5em $tertiary-03;
+}
+
+.tertiarybox {
+    box-shadow: 0 0 0.5em $tertiary-01;
+}
+
+.senarybox {
+    box-shadow: 0 0 0.5em $tertiary-04;
+}
+
+.TextePresentation {
+    padding: 20px;
+    @media(max-width:768px) {
+        padding: 5px;
+    }
+}
+
+.TagProject {
+    display: -webkit-inline-flex;
+    margin-top: 5%;
+
+    p {
+        font-family: 'FuturaStdBold';
+    }
+
+    .quinary {
+        background-color: $tertiary-03;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+
+    .senary {
+        background-color: $tertiary-04;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+
+    .octonary {
+        background-color: $tertiary-06;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+        color: $primary;
+    }
+
+    .tertiary {
+        background-color: $tertiary-01;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+        color: $primary;
+    }
+
+    .quaternary {
+        background-color: $tertiary-02;
+        border-radius: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 10px;
+    }
+}
