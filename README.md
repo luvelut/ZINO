@@ -21,8 +21,10 @@ Le site qui a été créé permet de regrouper et de présenter les différents 
 
 ## EQUIPE
 
-Jules CHEVALIER - page d'accueil
-Elise GIGOT - page work (projets)
-Lucile VELUT - page shop
+* Jules CHEVALIER - page d'accueil
+* Elise GIGOT - page work (projets)
+* Lucile VELUT - page shop
+
+Réalisation de la maquette par Enzo VETROMILLE.
 
 ![logo](https://github.com/luvelut/ZINO/blob/main/LogoZino.svg) 
