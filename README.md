@@ -17,7 +17,7 @@ Le site qui a été créé permet de regrouper et de présenter les différents 
 * travail et répartition des tâches dans une __équipe__ de 3 (dont un graphiste qui devait participer au développement HTML/CSS)
 * configuration __webpack/sass__ et __bonnes pratiques__
 * __délais__ très court (3 jours)
-* intégration la plus fidèle possible à la maquette déjà réalisé
+* intégration la plus fidèle possible à la maquette déjà réalisée
 
 ## EQUIPE
 
